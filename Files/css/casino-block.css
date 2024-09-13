@@ -1,0 +1,106 @@
+.casino-post {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.casino-post h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.casino-post img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.casino-post p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.casino-post a {
+  display: inline-block;
+  background-color: #0073aa;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.casino-post a:hover {
+  background-color: #005780;
+}
+
+.casino-post {
+  align-items: center;
+  padding: 0px;
+  border: none;
+  background: #0f1939;
+  padding-right: 20px;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.casino-post h2 {
+  color: white;
+}
+
+.casino-logo-wrapper {
+  background: #516ac8;
+  padding: 10px 30px;
+  width: 180px;
+}
+
+.casino-logo-wrapper img {
+  height: 90px;
+  width: 150px;
+  margin: auto;
+}
+
+.casino-post-button-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.casino-post-button-wrapper a {
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.casino-button-1 {
+  background-color: #e3af64 !important;
+  color: #0f1939 !important;
+  font-weight: bold;
+}
+
+.casino-button-2 {
+  background-color: #faebd7 !important;
+  color: #0f1939 !important;
+  font-weight: bold;
+}
+
+.casino-offer-text {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.casino-usps-text {
+  color: white;
+  font-weight: bold;
+}
+
+.casino-usps-text ul li::marker {
+  content: "✓";
+  color: green;
+}
+
+.casino-usps-text ul li {
+  padding-left: 10px;
+}

@@ -1,0 +1,14 @@
+/* block-editor-styles.css */
+
+.dynamic-casino-block {
+  background-color: #516ac8;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+.casino-search-block {
+  background-color: #0f1939;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
